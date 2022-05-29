@@ -4,13 +4,24 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+4 Screens\
+-> OnBoarding\
+-> Sign In\
+-> Sign Up\
+-> Home Screen\
 
-A few resources to get you started if this is your first Flutter project:
+->All 4 are responsive
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-> Sign in with Google must be done to order to access homepage.\n
+-> Logout Option is added in Drawer of HomePage.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-> Login SignUp directly is still not avaliable, Only Sign in with Google avaliable and it's data like email, name and userpicture displayed in homescreen in coresponding widgets.\n
+
+## Packages that are used:-\n
+
+-firebase_auth\
+-google_sign_in\
+-font_awesome_icon\
+-provider\
+-convex_bottom_bar\
+-flutter_switch
